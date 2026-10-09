@@ -10,7 +10,7 @@ pipeline {
     environment {
         DOCKERHUB_CREDENTIALS = 'docker-hub'
         DOCKERHUB_USERNAME    = 'mahesh0504docker'
-        IMAGE_NAME            = 'my-nginx'
+        IMAGE_NAME            = 'hiring-app'
 
         // Replace with your Argo CD manifests repository
         GITOPS_REPO            = 'https://github.com/Mahesh713-MB/hiring-app-k8s.git'
